@@ -12,8 +12,8 @@ pre-commit-formatting:
 	SKIP=unit-tests,coverage pre-commit run --all-files
 
 # CLI commands
-# init-test:
-# 	@ pip install -r tests/requirements.txt
+init-test:
+	@ pip install -r tests/requirements.txt
 
 # TODO: create and populate a test data s3 bucket
 #download-test-data: init-test
